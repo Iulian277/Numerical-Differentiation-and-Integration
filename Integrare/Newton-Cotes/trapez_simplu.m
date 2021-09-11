@@ -15,7 +15,7 @@ function aprox = trapez_simplu(f, a, b)
   % TODO: Aproximatie - Aplicare Formula: aprox = ...
   
   
-  
+
   % Grafice
   clf;
   [X Y] = fplot(f, [a - 0.1, b + 0.1]);

@@ -24,8 +24,6 @@ function aprox = Simpson_compus(f, a, b, n)
   hold on;
   pause(0.5);
   
-
-  
   scatter(a, f(a), 'r');
   scatter(b, f(b), 'r');
   scatter(x, f(x), 'r');

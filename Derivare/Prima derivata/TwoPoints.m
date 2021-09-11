@@ -3,7 +3,7 @@ function [df pf p2points] = TwoPoints(f, x0, h)
    %       Functia f
    %       Punctul (x0) in care trebuie sa aproximez prima derivata a lui f
    %       Pasul h
-   % Output: 
+   % Output:
    %        Valoarea aproximata (y0) a derivatei lui f in x0
    %        2 ploturi pentru legenda
    

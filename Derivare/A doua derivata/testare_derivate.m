@@ -6,7 +6,7 @@ function [] = testare_derivate()
   
    h = 0.1; % Pasul
   
-	 f = @(x) x .* exp(x); % Functie de derivat
+   f = @(x) x .* exp(x); % Functie de derivat
    d2f = @(x) (x+2) .* exp(x); % Derivata de ordin 2 a functiei
 	
    for i = 1 : length(x0)

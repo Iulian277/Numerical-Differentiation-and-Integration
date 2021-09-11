@@ -8,13 +8,12 @@ function aprox = trapez_compus(f, a, b, n)
   
   
   % TODO: Pasul h - Trapez Compus: h = ...
-  h = (b - a) / n; % De sters
+  
   
   % TODO: n puncte echidistante: x = ...
-  x = a + h : h : b - h; % De sters
+  
   
   % TODO: Aproximatie - Aplicare Formula: aprox = ...
-  aprox = h * ((f(a) + f(b)) / 2 + sum(f(x))); % De sters
   
   
   

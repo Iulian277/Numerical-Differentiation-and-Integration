@@ -8,8 +8,8 @@ function [df pf p2points] = TwoPoints(f, x0, h)
    %        2 ploturi pentru legenda
    
    
-   % TODO: df = Formula TwoPoints
-   df = 0; % De sters
+   % TODO: df = Formula TwoPoints: df = ...
+   
    
    
    % Grafice

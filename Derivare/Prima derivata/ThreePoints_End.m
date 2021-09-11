@@ -8,10 +8,11 @@ function [df p3pointsEnd] = ThreePoints_End(f, x0, h)
    %        1 plot pentru legenda
    
    
-   % TODO: df = Formula ThreePointsEnd
-   df = 0; % De sters
+   % TODO: df = Formula ThreePointsEnd: df = ...
    
    
+   
+   % Grafice
    % Tangenta aproximata in punctul x0 (Derivata 1)
    p = [df f(x0)];
  

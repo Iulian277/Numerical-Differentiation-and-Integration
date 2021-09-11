@@ -10,10 +10,10 @@ function aprox = Simpson_simplu(f, a, b)
   % Deci, se foloseste polinomul de interpolare Lagrange de grad 2
   
   % TODO: Pasul h - Simpson Simplu: h = ...
-  h = (b - a) / 2; % De sters
+  
   
   % TODO: Aproximatie - Aplicare Formula: aprox = ...
-  aprox = h / 3 * (f(a) + 4 * f((a + b) / 2) + f(b)); % De sters
+  
   
   
   % Grafice

@@ -8,10 +8,11 @@ function [df p3pointsMid] = ThreePoints_Mid(f, x0, h)
    %        1 plot pentru legenda
    
    
-   % TODO: df = Formula ThreePointsMid
-   df = 0; % De sters
+   % TODO: df = Formula ThreePointsMid: df = ...
    
    
+   
+   % Grafice
    % Tangenta aproximata in punctul x0 (Derivata 1)
    p = [df f(x0)];
  

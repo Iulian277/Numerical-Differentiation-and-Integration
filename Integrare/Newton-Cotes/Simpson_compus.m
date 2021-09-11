@@ -8,14 +8,13 @@ function aprox = Simpson_compus(f, a, b, n)
     
 
   % TODO: Pasul h - Simpson Compus: h = ...
-  h = (b - a) / (2 * n); % De sters
+  
   
   % TODO: 2n puncte echidistante: x = ...
-  x = a + h : h : b - h; % De sters
+  
   
   % TODO: Aproximatie - Aplicare Formula: aprox = ...
-  aprox = h / 3 * (f(a) + f(b) + 4 * sum(f(x(1:2:2*n-1))) + 2 * sum(f(x(2:2:2*n-1))));
-  % De sters
+  
   
   
   % Grafice

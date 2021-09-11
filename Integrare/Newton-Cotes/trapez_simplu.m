@@ -10,10 +10,10 @@ function aprox = trapez_simplu(f, a, b)
   % Apoi se aproximeaza integrala cu aria trapezului
   
   % TODO: Pasul h - Trapez Simplu: h = ...
-  h = b - a; % De sters
+  
   
   % TODO: Aproximatie - Aplicare Formula: aprox = ...
-  aprox = h / 2 * (f(a) + f(b)); % De sters
+  
   
   
   % Grafice
